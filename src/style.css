@@ -1,10 +1,11 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: rgb(167, 117, 176);
+  --secondary-color: rgb(229, 225, 225);
+  --third-color:  rgb(193, 167, 167);
+  --background-colors:  rgb(239, 221, 221);
   --heading-font-family: 'Tajawal', sans-serif;
-  --default-font-family: 'Tajawal', sans-serif;
+  --default-font-family: 'Roboto', sans-serif;
 }
-
 
 
 .container{
@@ -15,35 +16,43 @@ h1{
     font-size: 96px;
 }
 h1, h2, h3{
-    font-family:'Tajawal', sans-serif;
-      color: black;
+   color: black;
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 nav{
- font-family:'Tajawal', sans-serif;
+ font-family:var(--default-font-family);
  font-weight: medium;
 
 }
 button{
     width: 200px;
-color: rgb(59, 59, 59);
-    border-radius: 50px;
+color:var(--branding-color);
+background-color: var(--third-coloer);
+    border-radius: 65px;
+    border: none;
 text-align: center;
-    padding: 18, 30, 18, 30px;
-
+text-decoration: none;
+    padding: 18, 30, 18, 16px;
+ font-family:var(--default-font-family);
 }
-
+button:hover{
+    color:var(--secondary-color);
+    background-color:var(--heading-font-family);
+}
 
 footer{
     padding: 400px;
+     font-family:var(--default-font-family);
 }
 
 p {
   font-weight: normal;
+ color: var(--branding-color);
 }
 
 .titles {
-  background: var(--secondary-color);
+  background: var(--background-colors);
   text-align: center;
   padding: 160px 20px;
 }
@@ -52,7 +61,7 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: var(--branding-color);
 }
 
 
@@ -64,3 +73,18 @@ text-align: center;
     padding: 18, 30, 18, 30px;
 
 }
+
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+.btn-branding:hover{
+    color: var(--third-color);
+}
+
