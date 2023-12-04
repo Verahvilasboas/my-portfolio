@@ -25,21 +25,7 @@ nav{
  font-weight: medium;
 
 }
-button{
-    width: 200px;
-color:var(--branding-color);
-background-color: var(--third-coloer);
-    border-radius: 65px;
-    border: none;
-text-align: center;
-text-decoration: none;
-    padding: 18, 30, 18, 16px;
- font-family:var(--default-font-family);
-}
-button:hover{
-    color:var(--secondary-color);
-    background-color:var(--heading-font-family);
-}
+
 
 footer{
     padding: 400px;
@@ -77,7 +63,8 @@ text-align: center;
 
 .btn-branding {
   background: var(--branding-color);
-  border-radius: 4px;
+  border-radius: 50px;
+  font-family: var(--heading-font-family);
   color: white;
   font-size: 18px;
   line-height: 27px;
@@ -88,3 +75,19 @@ text-align: center;
     color: var(--third-color);
 }
 
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+    .footer {
+    display: none;
+  }
+}
+@media (min-width: 900px) {
+  h1 {
+    color: rgb(127, 96, 96);
+  }
+}
