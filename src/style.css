@@ -1,19 +1,23 @@
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: 'Tajawal', sans-serif;
+  --default-font-family: 'Tajawal', sans-serif;
+}
+
+
+
 .container{
     padding: 50, 40px;
 }
 
 h1{
-    font-family:'Tajawal', sans-serif;
-    font-weight: bold;
-    padding:26, 240px;
-    text-align: center;
+    font-size: 96px;
 }
-h2{
+h1, h2, h3{
     font-family:'Tajawal', sans-serif;
-    font-weight: bold;
-    padding:16px;
-    display: flexbox;
-
+      color: black;
+  font-weight: bold;
 }
 nav{
  font-family:'Tajawal', sans-serif;
@@ -29,6 +33,34 @@ text-align: center;
 
 }
 
+
 footer{
     padding: 400px;
+}
+
+p {
+  font-weight: normal;
+}
+
+.titles {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.titles p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+
+.btn-branding{
+        width: 200px;
+color: rgb(59, 59, 59);
+    border-radius: 50px;
+text-align: center;
+    padding: 18, 30, 18, 30px;
+
 }
