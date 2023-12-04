@@ -35,6 +35,7 @@ footer{
 p {
   font-weight: normal;
  color: var(--branding-color);
+ line-height: 1.5;
 }
 
 .titles {
@@ -81,7 +82,13 @@ text-align: center;
     font-size: 18px;
     text-align: center;
   }
-
+.description{
+    text-align: center;
+    padding: 0;
+}
+p{
+    text-align: center;
+}
     .footer {
     display: none;
   }
@@ -90,4 +97,18 @@ text-align: center;
   h1 {
     color: rgb(127, 96, 96);
   }
+}
+
+.btn-branding-outline{
+     color: rgb(120, 80, 80);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
+  border: 1px solid var(--branding-color);
+  border-radius: 40px;
+  
+}
+.description{
+    padding: 120 px 60x;
 }
