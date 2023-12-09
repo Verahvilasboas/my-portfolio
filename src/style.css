@@ -15,6 +15,17 @@ body {
     padding: 50, 40px;
 }
 
+.active{
+  color: rgb(51, 67, 83) !important;
+}
+
+.nav-item{
+  padding:0 16px ;
+  line-height: 25px;
+  display: inline;
+}
+
+
 h1{
     font-size: 96px; 
     text-align: center;
