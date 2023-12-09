@@ -30,6 +30,9 @@ nav{
 
 }
 
+h3{
+  font-size: 24px;
+}
 
 footer{
     padding: 400px;
@@ -92,6 +95,11 @@ text-align: center;
    h2 {
     font-size: 24px;
   }
+
+    h3 {
+    font-size: 18px;
+  }
+
 .description{
     text-align: left;
         padding: 80px 20px;
@@ -146,6 +154,26 @@ p{
 .content{
   margin: 30px;
 }
+
+.content h3{
+ font-size: 24px;
+ line-height: 1.5;
+ font-family: var(--heading-font-family);
+margin: 20px;
+}
+
+.content h1{
+ font-size: 32px;
+ line-height: 1.5;
+ text-align: left;
+ font-family: var(--heading-font-family);
+margin: 20px;
+}
+.content p{
+  font-size: 14px;
+  text-align: left;
+}
+
 .projectlink{
   padding: 16px;
 }
