@@ -1,8 +1,8 @@
 :root {
-  --branding-color: rgb(167, 117, 176);
+  --branding-color: rgb(209, 209, 209);
   --secondary-color: rgb(229, 225, 225);
-  --third-color:  rgb(193, 167, 167);
-  --background-colors:  rgb(239, 221, 221);
+  --third-color:  rgb(162, 162, 162);
+  --background-colors:  rgb(194, 177, 177);
   --heading-font-family: 'Tajawal', sans-serif;
   --default-font-family: 'Roboto', sans-serif;
 }
@@ -180,10 +180,10 @@ margin: 20px;
   padding: 16px;
 }
 .btn-branding{
-  color: rgb(164, 107, 164);
+  color: rgb(100, 96, 100);
   background-color: rgb(241, 241, 241);
   border: none;
-box-shadow: hotpink;
+box-shadow: rgb(118, 111, 115);
 border-radius: 1px;
 
 }
